@@ -1,0 +1,18 @@
+{
+  "friedman_chi2": 25.680000000000007,
+  "friedman_p": 1.1127960163591146e-05,
+  "kendall_w": 0.8560000000000002,
+  "n_folds": 10,
+  "mean_ranks": {
+    "KNN": 4.0,
+    "SVM": 1.2,
+    "Random Forest": 2.0,
+    "XGBoost": 2.8
+  },
+  "first_place_counts": {
+    "KNN": 0,
+    "SVM": 8,
+    "Random Forest": 2,
+    "XGBoost": 0
+  }
+}

@@ -1,0 +1,13 @@
+# Versions of the Google Colab run reported in the article (Python 3.13.16)
+scikit-learn==1.6.1
+xgboost==3.4.1
+numpy==2.4.6
+pandas==2.2.3
+scipy==1.16.3
+kagglehub
+sqlmap==1.10.11
+libinjection-python==1.1.6
+regex
+tabulate
+# figures only
+matplotlib>=3.8

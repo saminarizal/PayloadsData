@@ -1,0 +1,4 @@
+{
+  "kaggle_sqli_test_spaced_equals_pct": 80.53097345132744,
+  "note": "Share of SQLi payloads in the 80:20 Kaggle test set that contain a spaced equals sign (\" = \"); computed from the test split, also reported by sqli_baselines_norm.py as kaggle_test_sqli_spaced_equals_before."
+}

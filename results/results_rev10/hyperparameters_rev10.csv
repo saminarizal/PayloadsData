@@ -1,0 +1,7 @@
+Model,params,source,cv_macro_f1
+KNN,"{""metric"": ""cosine"", ""n_neighbors"": 5, ""weights"": ""distance""}",REV9 (best_hyperparameters.csv),
+SVM,"{""C"": 10, ""gamma"": ""scale"", ""kernel"": ""linear""}",REV9 (best_hyperparameters.csv),
+Random Forest,"{""n_estimators"": 100, ""min_samples_split"": 2, ""min_samples_leaf"": 1, ""max_depth"": null, ""class_weight"": null}",REV9 (best_hyperparameters.csv),
+XGBoost,"{""subsample"": 1.0, ""n_estimators"": 200, ""max_depth"": 4, ""learning_rate"": 0.1, ""colsample_bytree"": 0.8}",REV9 (best_hyperparameters.csv),
+Logistic Regression,"{""C"": 100, ""class_weight"": ""balanced""}",dituning ulang (protokol REV9),0.996333800916042
+Naive Bayes,"{""alpha"": 0.01}",dituning ulang (protokol REV9),0.9392397005744456

@@ -1,0 +1,73 @@
+{
+  "generated": 16440,
+  "unique": 15353,
+  "in_dataset": 21,
+  "evaluated": 15332,
+  "level1": 181,
+  "detection_all": {
+    "KNN": 96.33446386642316,
+    "SVM": 96.16488390294808,
+    "Random Forest": 94.2081920166971,
+    "XGBoost": 96.02791547091051
+  },
+  "detection_spaced": {
+    "KNN": 99.23689016436212,
+    "SVM": 99.7978085050874,
+    "Random Forest": 99.73910774849986,
+    "XGBoost": 98.68901643621184
+  },
+  "share_spaced_equals": {
+    "orig": 0.0,
+    "spaced": 64.31646230106965
+  },
+  "detection_level1": {
+    "KNN": 98.34254143646409,
+    "SVM": 97.79005524861878,
+    "Random Forest": 90.60773480662984,
+    "XGBoost": 90.60773480662984
+  },
+  "by_technique": {
+    "UNION query": {
+      "KNN": 99.9804992199688,
+      "SVM": 100.0,
+      "Random Forest": 100.0,
+      "XGBoost": 100.0,
+      "n": 5128
+    },
+    "boolean-based blind": {
+      "KNN": 85.44061302681992,
+      "SVM": 98.02043422733078,
+      "Random Forest": 98.4035759897829,
+      "XGBoost": 94.44444444444444,
+      "n": 1566
+    },
+    "error-based": {
+      "KNN": 96.97766097240473,
+      "SVM": 96.58344283837057,
+      "Random Forest": 97.43758212877792,
+      "XGBoost": 99.24441524310119,
+      "n": 3044
+    },
+    "inline query": {
+      "KNN": 100.0,
+      "SVM": 100.0,
+      "Random Forest": 87.5,
+      "XGBoost": 100.0,
+      "n": 8
+    },
+    "stacked queries": {
+      "KNN": 97.95221843003414,
+      "SVM": 93.31058020477816,
+      "Random Forest": 79.11262798634813,
+      "XGBoost": 87.30375426621161,
+      "n": 1465
+    },
+    "time-based blind": {
+      "KNN": 94.87988352341664,
+      "SVM": 91.38558602280999,
+      "Random Forest": 88.40087357437515,
+      "XGBoost": 92.4047561271536,
+      "n": 4121
+    }
+  }
+}

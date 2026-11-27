@@ -1,0 +1,21 @@
+{
+  "python": "3.13.16",
+  "sklearn": "1.6.1",
+  "xgboost": "3.4.1",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "cpus": 2,
+  "file": "Modified_SQL_Dataset.csv",
+  "sha256": "60af1d160dcc5c3f61440dc8f0c019e8898243951e283402857c10294c6f5cc5",
+  "encoding": "utf-8-sig",
+  "rows": 30919,
+  "columns": [
+    "text",
+    "label"
+  ],
+  "raw_labels": {
+    "0": 19537,
+    "1": 11382
+  }
+}

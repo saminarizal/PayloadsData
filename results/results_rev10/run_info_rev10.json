@@ -1,0 +1,346 @@
+{
+  "python": "3.13.16",
+  "sklearn": "1.6.1",
+  "xgboost": "3.4.1",
+  "numpy": "2.4.6",
+  "pandas": "2.2.3",
+  "seed": 42,
+  "crs_tag": "v4.30.0",
+  "data": {
+    "file": "Modified_SQL_Dataset.csv",
+    "sha256": "60af1d160dcc5c3f61440dc8f0c019e8898243951e283402857c10294c6f5cc5",
+    "rows_raw": 30919,
+    "rows_clean": 30802
+  },
+  "sqlmap": {
+    "generated": 16440,
+    "unique": 15353,
+    "evaluated": 15332
+  },
+  "normalization_check": {
+    "test_rows_identical_to_train_after_norm": 4,
+    "label_conflicting_texts_after_norm": 0,
+    "sqlmap_strings_identical_to_kaggle_after_norm": 56,
+    "sqlmap_with_spaced_equals_before": 0.0,
+    "sqlmap_with_spaced_equals_after": 64.30993999478216,
+    "kaggle_test_sqli_spaced_equals_before": 80.53097345132744,
+    "kaggle_test_sqli_spaced_equals_after": 80.53097345132744
+  },
+  "libinjection": "libinjection-python 1.1.6",
+  "crs": {
+    "source": "https://raw.githubusercontent.com/coreruleset/coreruleset/v4.30.0/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf",
+    "rules_used": [
+      [
+        "942100",
+        1,
+        "libinjection"
+      ],
+      [
+        "942140",
+        1,
+        "rx"
+      ],
+      [
+        "942151",
+        1,
+        "rx"
+      ],
+      [
+        "942160",
+        1,
+        "rx"
+      ],
+      [
+        "942170",
+        1,
+        "rx"
+      ],
+      [
+        "942190",
+        1,
+        "rx"
+      ],
+      [
+        "942220",
+        1,
+        "rx"
+      ],
+      [
+        "942230",
+        1,
+        "rx"
+      ],
+      [
+        "942240",
+        1,
+        "rx"
+      ],
+      [
+        "942250",
+        1,
+        "rx"
+      ],
+      [
+        "942270",
+        1,
+        "rx"
+      ],
+      [
+        "942280",
+        1,
+        "rx"
+      ],
+      [
+        "942290",
+        1,
+        "rx"
+      ],
+      [
+        "942320",
+        1,
+        "rx"
+      ],
+      [
+        "942350",
+        1,
+        "rx"
+      ],
+      [
+        "942360",
+        1,
+        "rx"
+      ],
+      [
+        "942500",
+        1,
+        "rx"
+      ],
+      [
+        "942540",
+        1,
+        "rx"
+      ],
+      [
+        "942560",
+        1,
+        "rx"
+      ],
+      [
+        "942550",
+        1,
+        "rx"
+      ],
+      [
+        "942120",
+        2,
+        "rx"
+      ],
+      [
+        "942150",
+        2,
+        "rx"
+      ],
+      [
+        "942180",
+        2,
+        "rx"
+      ],
+      [
+        "942210",
+        2,
+        "rx"
+      ],
+      [
+        "942260",
+        2,
+        "rx"
+      ],
+      [
+        "942300",
+        2,
+        "rx"
+      ],
+      [
+        "942310",
+        2,
+        "rx"
+      ],
+      [
+        "942330",
+        2,
+        "rx"
+      ],
+      [
+        "942340",
+        2,
+        "rx"
+      ],
+      [
+        "942361",
+        2,
+        "rx"
+      ],
+      [
+        "942362",
+        2,
+        "rx"
+      ],
+      [
+        "942370",
+        2,
+        "rx"
+      ],
+      [
+        "942380",
+        2,
+        "rx"
+      ],
+      [
+        "942390",
+        2,
+        "rx"
+      ],
+      [
+        "942400",
+        2,
+        "rx"
+      ],
+      [
+        "942410",
+        2,
+        "rx"
+      ],
+      [
+        "942470",
+        2,
+        "rx"
+      ],
+      [
+        "942480",
+        2,
+        "rx"
+      ],
+      [
+        "942430",
+        2,
+        "rx"
+      ],
+      [
+        "942450",
+        2,
+        "rx"
+      ],
+      [
+        "942510",
+        2,
+        "rx"
+      ],
+      [
+        "942520",
+        2,
+        "rx"
+      ],
+      [
+        "942522",
+        2,
+        "rx"
+      ],
+      [
+        "942251",
+        3,
+        "rx"
+      ],
+      [
+        "942490",
+        3,
+        "rx"
+      ],
+      [
+        "942431",
+        3,
+        "rx"
+      ],
+      [
+        "942460",
+        3,
+        "rx"
+      ],
+      [
+        "942511",
+        3,
+        "rx"
+      ],
+      [
+        "942530",
+        3,
+        "rx"
+      ],
+      [
+        "942432",
+        4,
+        "rx"
+      ]
+    ],
+    "rules_skipped": [
+      [
+        "942130",
+        2,
+        "chain"
+      ],
+      [
+        "942131",
+        2,
+        "chain"
+      ],
+      [
+        "942200",
+        2,
+        "chain"
+      ],
+      [
+        "942440",
+        2,
+        "chain"
+      ],
+      [
+        "942521",
+        2,
+        "chain"
+      ],
+      [
+        "942101",
+        2,
+        "bukan ARGS"
+      ],
+      [
+        "942152",
+        2,
+        "bukan ARGS"
+      ],
+      [
+        "942321",
+        2,
+        "bukan ARGS"
+      ],
+      [
+        "942420",
+        3,
+        "bukan ARGS"
+      ],
+      [
+        "942421",
+        4,
+        "bukan ARGS"
+      ]
+    ],
+    "PL1_n_rules": 20,
+    "PL1_regex_stats": {
+      "timeouts": 0
+    },
+    "PL2_n_rules": 43,
+    "PL2_regex_stats": {
+      "timeouts": 0
+    }
+  },
+  "reproduces_rev9": true
+}

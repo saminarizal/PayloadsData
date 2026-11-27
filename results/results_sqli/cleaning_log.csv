@@ -1,0 +1,6 @@
+Step,Rows
+Raw data,30919
+After dropping missing payloads,30919
+After dropping empty payloads,30918
+After removing 2 label-conflicting texts (10 rows),30908
+After removing exact duplicates (normalised),30802
