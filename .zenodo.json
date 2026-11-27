@@ -1,0 +1,13 @@
+{
+  "title": "Code and results: SQL injection detection with KNN, SVM, Random Forest, and XGBoost (Kaggle benchmark, sqlmap test, operator normalisation)",
+  "upload_type": "software",
+  "description": "Code, sqlmap test strings, and result files for the article 'Comparative Analysis of KNN, SVM, Random Forest, and XGBoost Algorithms for SQL Injection Attack Detection in Web Applications' (Journal of Information Systems and Informatics).",
+  "creators": [
+    {"name": "Arizal, Samin", "affiliation": "Universitas Bina Sarana Informatika"},
+    {"name": "Zinedine, Enzo Giuseppe", "affiliation": "Universitas Bina Sarana Informatika"},
+    {"name": "Sumanto", "affiliation": "Universitas Bina Sarana Informatika"},
+    {"name": "Puspitasari, Diah", "affiliation": "Universitas Bina Sarana Informatika"}
+  ],
+  "license": "MIT",
+  "keywords": ["SQL injection", "web attack detection", "support vector machine", "TF-IDF", "sqlmap"]
+}
